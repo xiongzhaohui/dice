@@ -1,4 +1,4 @@
-#! /usr/bin/env
+#! /usr/bin/env python
 import random
 def int_input(randomNumber):
     numberofdice= int(raw_input("How many dices do you want?"))
@@ -6,10 +6,10 @@ def int_input(randomNumber):
         numberofside = int(raw_input("How many sides do you want your dice has")
                 if numberofside< 2:
                         return "the side of dice is wrong"
-    for i in range(q,numberofdice):
+    for i in range(1,numberofdice):
             for j in range(1,numberofside):
                 randomNumber = random.randint(1,j)
->>>>>>> pseudocode
     return randomNumber
 print int_input(0)
+
            
